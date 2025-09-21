@@ -8,7 +8,7 @@ echo $ad;
 echo "<br>";
 echo $soyadi;
 echo "<hr>";
-$metin= "Merhaba Ben:$ad $soyadi";
+$metin="Merhaba Ben:$ad $soyadi";
 echo $metin;
 echo "<hr>";
 $metin2="Merhaba Ben:{$ad} {$soyadi}";
@@ -22,14 +22,14 @@ echo $sonuc2;
 echo "<br>";
 echo "<hr>";
 // Referansa Bagli Deger Atama, Miras Alma
-$a= 5;
-$b= $a;
+$a=5;
+$b=$a;
 echo "A'nın Değeri:{$a}";
 echo "<br>";
 echo "B'nın Değeri:{$b}";
 echo "<br>";
 echo "<hr>";
-$a= 10;
+$a=10;
 echo "A'nın Yeni Değeri:{$a}";
 echo "<br>";
 echo "B'nin Yeni Değeri:{$b}";
@@ -41,5 +41,4 @@ Boolean= D/Y (Mantıksal İfadeler)
 Array= Tek değişkende birden çok değeri tutar
 Null= Boş Değer
 */
-
 ?>

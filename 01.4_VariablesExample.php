@@ -41,7 +41,7 @@ echo "<br>";
 echo count($meyveler);
 echo "<hr>";
 //6.Anahtar-Değer dizisi
-$kisi= [
+$kisi=[
     "ad"=>"Sevgi",
     "soyad"=>"Uzun",
     "yas"=>33,
@@ -58,7 +58,7 @@ echo $isim2." bir ".$meslek."dir.";
 //Sevgi bir İşletmecidir.
 echo "<hr>";
 //8.Değişkeni fonksiyon içinde kullanma
-$isim3 = "Serhat";
+$isim3="Serhat";
 function selamla(){
     global $isim3;
     echo "Merhaba"." ".$isim3."!";
@@ -71,11 +71,11 @@ $siteAdi="Sitem";
 echo "Sabit:" .SITE_ADI. "<br>";
 echo "Değişken:" .$siteAdi. "<br>";
 // Değişkeni ise istediğimiz gibi değiştirebiliriz:
-$siteAdi= "Yeni Sitem";
+$siteAdi="Yeni Sitem";
 echo "Değiştirilen Değişken:" .$siteAdi;
 echo "<hr>";
 //10.Değişkenin tanımlı olup olmadığını kontrol et
-$mesaj= "Merhaba PHP!";
+$mesaj="Merhaba PHP!";
 if (isset($mesaj)){
     echo "Değişken Tanımlı:" . $mesaj;
 }else{
