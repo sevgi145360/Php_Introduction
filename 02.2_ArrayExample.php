@@ -117,7 +117,7 @@ $birlesik=array_merge($a,$b);
 echo "Birleştirilmiş(Numeric):";
 print_r($birlesik);
 echo "<br>";
-// İlişkisel dizilerde davranış
+//İlişkisel dizilerde davranış
 $x=["a"=> 0, "b"=>20];
 $y=["b"=>30, "c"=>40];
 $assoc=array_merge($x,$y);
